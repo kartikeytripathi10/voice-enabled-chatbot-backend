@@ -12,7 +12,7 @@ app = FastAPI()
 # Setup CORS so frontend (localhost:3000) can access backend (localhost:8000)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["https://voice-enabled-chatbot22.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
